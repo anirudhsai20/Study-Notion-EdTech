@@ -1,6 +1,7 @@
 {
   "name": "studynotion-client",
   "description": "This is the client side of the StudyNotion App",
+  "homepage":"./pages/Home",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -39,8 +40,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "server": "cd server && npm run dev",
-    "dev": "concurrently -n \"client,server\" -c \"bgBlue,bgYellow\" \"npm start\" \"npm run server\"",
-    "homepage":"./pages/Home"
+    "dev": "concurrently -n \"client,server\" -c \"bgBlue,bgYellow\" \"npm start\" \"npm run server\""
   },
   "eslintConfig": {
     "extends": [
