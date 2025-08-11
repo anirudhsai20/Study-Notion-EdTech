@@ -1,7 +1,7 @@
 {
   "name": "studynotion-client",
   "description": "This is the client side of the StudyNotion App",
-  "homepage":"./pages/Home",
+  "homepage":".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
